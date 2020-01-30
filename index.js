@@ -7,5 +7,5 @@ function findMatching(arr, name){
 
 function fuzzyMatch(arr, letters){
    return arr.filter(function(e){
-   return e.toLowerCase().substr(0,letter.length)===name.toLowerCase()
+   return e.toLowerCase().substr(0,letters.length)===name.toLowerCase()
 })}
