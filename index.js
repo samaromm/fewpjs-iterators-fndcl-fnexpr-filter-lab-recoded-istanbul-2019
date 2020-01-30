@@ -9,3 +9,9 @@ function fuzzyMatch(arr, letters){
    return arr.filter(function(e){
    return e.toLowerCase().substr(0,letters.length)===letters.toLowerCase()
 })}
+
+function matchName(arr, name){
+  return arr.filter(function (e){
+    return e.name.toLowerCase()==name.toLowerCase()
+  })
+}
