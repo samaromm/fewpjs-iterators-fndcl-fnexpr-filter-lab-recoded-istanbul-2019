@@ -2,10 +2,10 @@
 
 function findMatching(arr, name){
    return arr.filter(function(e){
-   e.toLowerCase()==name.toLowerCase()
+   e.toLowerCase()===name.toLowerCase()
 })}
 
 function fuzzyMatch(arr, letters){
    return arr.filter(function(e){
-   e.toLowerCase().substr(0,letter.length-1)==name.toLowerCase()
+   e.toLowerCase().substr(0,letter.length)===name.toLowerCase()
 })}
