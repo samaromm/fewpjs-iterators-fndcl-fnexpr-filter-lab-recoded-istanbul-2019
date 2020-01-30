@@ -2,7 +2,8 @@
 
 function findMatching(arr, name){
    let drivers= arr.filter(function(e){
-   return e.toLowerCase()==name.toLowerCase()
+   e.toLowerCase()==name.toLowerCase()
+   return drivers
 })}
 
 function fuzzyMatch(arr, letters){
